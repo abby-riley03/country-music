@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>Top Country Artists</title>
+<link rel="icon" type="image/x-icon" href="images/cm symbol.png">
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ARTISTS</a>
+    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">TOUR</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="morgan.html" class="w3-bar-item w3-button">About Morgan Wallen</a>
+        <a href="#" class="w3-bar-item w3-button">About Zach Bryan</a>
+        <a href="#" class="w3-bar-item w3-button">About Luke Combs</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
+  <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/luke.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Luke Combs</h3>
+      <p><b>"I am an honest dude, not trying to be anyhing other than who I am."</b></p>    
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/morgan.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Morgan Wallen</h3>
+      <p><b>“I want to create a legacy that people will remember.”</b></p>   
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="images/zachb.jpg" style="width:100%">
+    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      <h3>Zach Bryan</h3>
+      <p><b>"You make mistakes and you fix them that is life."</b></p>    
+    </div>
+  </div>
+
+  </div>
+
+  <!-- The Band Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <h2 class="w3-wide">Top Country Artists</h2>
+    <p class="w3-opacity"><i></i></p>
+    <p class="w3-justify"></p>
+
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p>Morgan Wallen</p>
+        <img src="images/morgan2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Zach Bryan</p>
+        <img src="original/zach2.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p>Luke Combs</p>
+        <img src="images/luke2.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+
+  <!-- The Tour Section -->
+  <div class="w3-black" id="tour">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center">TOUR DATES</h2>
+      <p class="w3-opacity w3-center"><i>Remember to book your tickets soon!</i></p><br>
+
+      <ul class="w3-ul w3-border w3-white w3-text-grey">
+        <li class="w3-padding">May 2nd - 4th Nashville, TN  (Morgan Wallen) <span class="w3-tag w3-red w3-margin-left">Almost Sold Out</span></li>
+        <li class="w3-padding">June 17th and 26th Foxboro, MA (Zach Bryan) <span class="w3-tag w3-red w3-margin-left"> Almost Sold Out</span></li>
+        <li class="w3-padding">August 9th-10th Houston, TX (Luke Combs)<span class="w3-badge w3-right w3-margin-right">20+</span></li>
+      </ul>
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+         
+          <div class="w3-container w3-white">
+            <p><b>Moragn Wallen</b></p>
+            <p class="w3-opacity"> May 2nd-4th, 2024</p>
+            <p>Buy your tickets today for the show in Nashville, TN!</p>
+            <button class="w3-button w3-black w3-margin-bottom" </button><a href="https://www.ticketmaster.com/morgan-wallen-tickets/artist/2288122">Buy Tickets!</a>
+
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          
+          <div class="w3-container w3-white">
+            <p><b>Zach Bryan</b></p>
+            <p class="w3-opacity">June 17th and 26th, 2024</p>
+            <p>Buy your tickets today for the show in Foxboro, MA!</p>
+            <button class="w3-button w3-black w3-margin-bottom" </button><a href="https://www.ticketmaster.com/zach-bryan-tickets/artist/2811359?&venueId=8759">Buy Tickets!</a>
+
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+
+          <div class="w3-container w3-white">
+            <p><b>Luke Combs</b></p>
+            <p class="w3-opacity">August 9th-10th, 2024</p>
+            <p>Buy your tickets today for the show in Houston, TX!</p>
+            <button class="w3-button w3-black w3-margin-bottom" </button><a href="https://www.ticketmaster.com/luke-combs-tickets/artist/2150342">Buy Tickets!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+ 
+  <!-- The Contact Section -->
+  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+    <h2 class="w3-wide w3-center">CONTACT</h2>
+    <p class="w3-opacity w3-center"><i>Any suggestions or comments on site?!  </i></p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker" style="width:30px"></i> Massachusetts, US<br>
+        <i class="fa fa-phone" style="width:30px"></i> Phone: (123) 456-7891<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> Email: rileya27@wpsma.org<br>
+      </div>
+      <div class="w3-col m6">
+        <form action="" target="_blank">
+          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+            </div>
+            <div class="w3-half">
+              <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+            </div>
+          </div>
+          <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+          <button class="w3-button w3-black w3-section w3-right" type="submit">SEND</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+<!-- End Page Content -->
+</div>
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-instagram w3-hover-opacity"></i>
+  <i class="fa fa-snapchat w3-hover-opacity"></i>
+  <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">Walpole High School <br>Abby R</p>
+
+</footer>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
